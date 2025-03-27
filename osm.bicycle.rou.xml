@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-01-26 22:27:38.999798 by randomTrips.py v1_21_0+0000-d7b3b481c43
+<configuration>
+    <net-file value="osm.net.xml.gz"/>
+    <output-trip-file value="osm.bicycle.trips.xml"/>
+    <route-file value="osm.bicycle.rou.xml"/>
+    <prefix value="bike"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="bicycle"/>
+    <fringe-factor value="2"/>
+    <vclass value="bicycle"/>
+    <via-edge-types value="highway.motorway,highway.motorway_link,highway.trunk_link,highway.primary_link,highway.secondary_link,highway.tertiary_link"/>
+    <max-distance value="8000.0"/>
+    <remove-loops value="True"/>
+    <validate value="True"/>
+    <insertion-density value="6.0"/>
+</configuration>
+-->
+
+<!-- generated on 2025-01-26 22:27:38 by Eclipse SUMO duarouter Version 1.21.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="osm.bicycle.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.bicycle.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bike_bicycle" vClass="bicycle"/>
+    <vehicle id="bike1" type="bike_bicycle" depart="109.28" departLane="best">
+        <route edges="1126771720#0 1126771719 1126771718#0 1126771718#1 1126771718#2 1126771718#3"/>
+    </vehicle>
+    <vehicle id="bike2" type="bike_bicycle" depart="218.57" departLane="best" departSpeed="max">
+        <route edges="143870423 143870422#0"/>
+    </vehicle>
+    <vehicle id="bike3" type="bike_bicycle" depart="327.85" departLane="best">
+        <route edges="15491645#0-AddedOffRampEdge 15491645#1 1126771722#0 142047546#0 142047546#1 143870422#1 143870422#2 1126771720#0 1126771719 1126771718#0"/>
+    </vehicle>
+    <vehicle id="bike10" type="bike_bicycle" depart="1092.84" departLane="best" departSpeed="max">
+        <route edges="15491645#0 15491645#0-AddedOffRampEdge 15491645#1 1126771722#0 142047546#0 142047546#1 143870422#1"/>
+    </vehicle>
+    <vehicle id="bike13" type="bike_bicycle" depart="1420.70" departLane="best">
+        <route edges="1126771718#1"/>
+    </vehicle>
+    <vehicle id="bike14" type="bike_bicycle" depart="1529.98" departLane="best" departSpeed="max">
+        <route edges="15491645#0 15491645#0-AddedOffRampEdge 15491645#1 1126771722#0 142047546#0 142047546#1 142047546#2 142047546#3"/>
+    </vehicle>
+    <vehicle id="bike15" type="bike_bicycle" depart="1639.27" departLane="best" departSpeed="max">
+        <route edges="15491645#0 15491645#0-AddedOffRampEdge 15491645#1 1126771722#0 142047546#0 142047546#1 143870422#1 143870422#2"/>
+    </vehicle>
+    <vehicle id="bike17" type="bike_bicycle" depart="1857.84" departLane="best">
+        <route edges="142047546#0 142047546#1 142047546#2"/>
+    </vehicle>
+    <vehicle id="bike18" type="bike_bicycle" depart="1967.12" departLane="best" departSpeed="max">
+        <route edges="15491645#0 15491645#0-AddedOffRampEdge 15491645#1 1126771722#0 142047546#0 142047546#1 142047546#2 142047546#3"/>
+    </vehicle>
+    <vehicle id="bike19" type="bike_bicycle" depart="2076.40" departLane="best" departSpeed="max">
+        <route edges="15491645#0 15491645#0-AddedOffRampEdge 15491645#1 1126771722#0 142047546#0 142047546#1 142047546#2"/>
+    </vehicle>
+    <vehicle id="bike20" type="bike_bicycle" depart="2185.69" departLane="best" departSpeed="max">
+        <route edges="143870423 143870422#0 143870422#1 143870422#2 1126771720#0 1126771719 1126771718#0"/>
+    </vehicle>
+    <vehicle id="bike21" type="bike_bicycle" depart="2294.97" departLane="best">
+        <route edges="1126771720#0 1126771719"/>
+    </vehicle>
+    <vehicle id="bike22" type="bike_bicycle" depart="2404.26" departLane="best">
+        <route edges="1126771718#0 1126771718#1 1126771718#2 1126771718#3"/>
+    </vehicle>
+    <vehicle id="bike25" type="bike_bicycle" depart="2732.11" departLane="best">
+        <route edges="142047546#0 142047546#1 143870422#1 143870422#2 1126771720#0 1126771719 1126771718#0 1126771718#1 1126771718#2 1126771718#3"/>
+    </vehicle>
+    <vehicle id="bike31" type="bike_bicycle" depart="3387.82" departLane="best">
+        <route edges="143870422#0 143870422#1"/>
+    </vehicle>
+    <vehicle id="bike32" type="bike_bicycle" depart="3497.10" departLane="best" departSpeed="max">
+        <route edges="15491645#0 15491645#0-AddedOffRampEdge"/>
+    </vehicle>
+</routes>
