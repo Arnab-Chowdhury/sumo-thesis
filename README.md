@@ -29,32 +29,6 @@ The method is tested on 7 days of real-world classified traffic data (recorded i
 
 ---
 
-## 🗂️ **Repository Structure**
-
-```
-📁 data/
-     – Traffic counts (15-min intervals)
-     – vType definitions
-     – Route files (flows per interval)
-
-📁 network/
-     – SUMO network (.net.xml)
-     – SUMO config file (osm.sumocfg)
-
-📁 controller/
-     – egt_controller.py
-     – replicator_dynamics.py
-     – signal_update_utils.py
-
-📁 results/
-     – delay outputs
-     – plots and comparative graphs
-
-📄 thesis-summary.pdf
-📄 README.md (this file)
-```
-
----
 
 ## ⚙️ **Methodology (Short Version)**
 
@@ -67,7 +41,7 @@ The method is tested on 7 days of real-world classified traffic data (recorded i
 
    * 15-minute interval classified counts
    * vTypes: cars, motorcycles, autos, buses, trucks
-   * SUMO **flows** over each movement for 7 days
+   * SUMO **flows** over each movement
 
 3. **Baseline Controller**
 
@@ -135,5 +109,5 @@ sumo-gui -c network/osm.sumocfg
 ### **4. Run the EGT Controller**
 
 ```bash
-python controller/egt_controller.py
+python controller/egt_so4.py
 ```
