@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sumoConfiguration>
+    <input>
+        <net-file value="bijoy_v3.net.xml"/>
+        <route-files value="rou_16-2-2023_h18.xml"/>
+        <additional-files value="vtypes_cal.add.xml"/>
+    </input>
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+        <statistic-output value="statistics.xml"/>
+    </output>
+    <time><begin value="0"/><end value="3900"/></time>
+    <processing>
+        <lateral-resolution value="0.8"/>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="300"/>
+    </processing>
+    <report><no-step-log value="true"/><duration-log.statistics value="true"/></report>
+</sumoConfiguration>
