@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-07-06T17:53:34.625871+00:00 by Eclipse SUMO netconvert 1.27.1
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="osm_updated_net.xml"/>
+    </input>
+
+    <output>
+        <plain-output-prefix value="bp"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="1"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</netconvertConfiguration>
+-->
+
+<edges version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <location netOffset="-233397.45,-2630017.98" convBoundary="6.17,0.39,929.38,1296.40" origBoundary="90.384233,23.759276,90.393471,23.771133" projParameter="+proj=utm +zone=46 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <edge id="-818379584" from="7642759358" to="7642759360" priority="1" type="highway.service" numLanes="1" speed="5.56" shape="515.55,1159.75 511.44,1136.97 537.02,1133.19" allow="pedestrian delivery bicycle">
+        <lane index="0">
+            <param key="origId" value="818379584"/>
+        </lane>
+    </edge>
+    <edge id="1055297794" from="9696932221" to="9696932220" priority="13" type="highway.trunk" numLanes="2" speed="27.78" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1055297794"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="1055297794"/>
+        </lane>
+    </edge>
+    <edge id="1061772991" from="cluster10027077018_154346215_1552436542_1554731343" to="6905322255" name="পুরাতন বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="3" speed="16.67" shape="485.77,582.62 485.01,611.57 484.85,621.10 488.41,702.44 489.34,728.94" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1061772991"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="1061772991"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="1061772991"/>
+        </lane>
+    </edge>
+    <edge id="1126771714#0" from="10303219059" to="10027065973" name="Foot Over Bridge" priority="1" type="highway.footway" numLanes="1" speed="2.78" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="1126771714"/>
+        </lane>
+    </edge>
+    <edge id="1126771714#1" from="10027065973" to="2412827472" name="Foot Over Bridge" priority="1" type="highway.footway" numLanes="1" speed="2.78" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="1126771714"/>
+        </lane>
+    </edge>
+    <edge id="1126771715" from="10027065975" to="10027065973" name="Foot Over Bridge" priority="1" type="highway.footway" numLanes="1" speed="2.78" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="1126771715"/>
+        </lane>
+    </edge>
+    <edge id="1126771716#0" from="2412827471" to="10027065975" name="Foot Over Bridge" priority="1" type="highway.footway" numLanes="1" speed="2.78" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="1126771716"/>
+        </lane>
+    </edge>
+    <edge id="1126771716#1" from="10027065975" to="10303219058" name="Foot Over Bridge" priority="1" type="highway.footway" numLanes="1" speed="2.78" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="1126771716"/>
+        </lane>
+    </edge>
+    <edge id="1126771717" from="6904866115" to="4926544729" name="বিজয় সরণী" priority="7" type="highway.primary_link" numLanes="1" speed="16.67" shape="480.02,528.81 479.47,537.30 478.93,549.87 475.44,553.82 469.49,555.24 461.37,556.63 448.77,558.71 433.62,560.83" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771717"/>
+        </lane>
+    </edge>
+    <edge id="1126771718#0" from="4926544729" to="12196631082" name="বিজয় সরণী" priority="12" type="highway.primary" numLanes="3" speed="16.67" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771718"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="1126771718"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="1126771718"/>
+        </lane>
+    </edge>
+    <edge id="1126771718#1" from="12196631082" to="6904866110" name="বিজয় সরণী" priority="12" type="highway.primary" numLanes="3" speed="16.67" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771718"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="1126771718"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="1126771718"/>
+        </lane>
+    </edge>
+    <edge id="1126771718#2" from="6904866110" to="5612436789" name="বিজয় সরণী" priority="12" type="highway.primary" numLanes="3" speed="16.67" shape="136.71,623.68 56.88,637.55 13.17,644.09" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771718"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="1126771718"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="1126771718"/>
+        </lane>
+    </edge>
+    <edge id="1126771719" from="cluster10027077018_154346215_1552436542_1554731343" to="4926544729" name="বিজয় সরণী" priority="12" type="highway.primary" numLanes="3" speed="16.67" shape="487.45,560.44 477.37,560.78 464.80,562.21 424.57,565.41" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771719"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="1126771719"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="1126771719"/>
+        </lane>
+    </edge>
+    <edge id="1126771720#0" from="6905372554" to="cluster10027077018_154346215_1552436542_1554731343" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="3" speed="27.78" shape="548.53,565.62 501.04,561.11" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771720"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="1126771720"/>
+        </lane>
+    </edge>
+    <edge id="1126771721" from="6905372554" to="1554731345" name="Tejgaon Link Road" priority="7" type="highway.primary_link" numLanes="1" speed="22.22" shape="548.53,560.45 529.02,558.77 520.61,557.59 514.33,556.05 509.30,554.14 506.31,549.19 505.58,541.80 505.25,532.80" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771721"/>
+        </lane>
+    </edge>
+    <edge id="1126771722#0" from="cluster10027077018_154346215_1552436542_1554731343" to="6905372553" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="2" speed="27.78" shape="500.03,580.47 550.13,576.96" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771722"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="1126771722"/>
+        </lane>
+    </edge>
+    <edge id="1126771723" from="6905334314" to="6905372553" name="Tejgaon Link Road" priority="7" type="highway.primary_link" numLanes="1" speed="22.22" shape="505.90,611.32 507.37,598.04 508.56,587.95 511.06,585.22 516.63,583.97 523.83,583.32 535.94,581.96 550.60,581.22" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="1126771723"/>
+        </lane>
+    </edge>
+    <edge id="1317835194" from="12196631047" to="9221371112" priority="1" type="highway.footway" numLanes="1" speed="2.78" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="1317835194"/>
+        </lane>
+    </edge>
+    <edge id="13848342#0" from="cluster10027077018_154346215_1552436542_1554731343" to="1554731345" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" shape="501.12,557.69 500.63,533.31" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="13848342"/>
+        </lane>
+    </edge>
+    <edge id="13848342#1" from="1554731345" to="4926163257" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="13848342"/>
+        </lane>
+    </edge>
+    <edge id="13848342#2" from="4926163257" to="2412825272" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" shape="500.75,523.37 501.58,486.51 505.92,432.74 507.90,411.68" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="13848342"/>
+        </lane>
+    </edge>
+    <edge id="13848342#3" from="2412825272" to="2412825463" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="13848342"/>
+        </lane>
+    </edge>
+    <edge id="13848342#4" from="2412825463" to="2412825661" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="13848342"/>
+        </lane>
+    </edge>
+    <edge id="13848342#5" from="2412825661" to="6911347916" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" shape="516.92,289.12 525.40,204.40 540.72,101.39" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="13848342"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="13848342"/>
+        </lane>
+    </edge>
+    <edge id="141821921#1" from="cluster_6553351654_6556709944_6557039652_6557039653" to="123044414" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="583.90,1290.77 582.32,1282.82 570.80,1230.88 557.60,1157.38" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="141821921"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="141821921"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="141821921"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="141821921"/>
+        </lane>
+        <param key="origFrom" value="6553351654"/>
+    </edge>
+    <edge id="141821921#2" from="123044414" to="123044404" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="141821921"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="141821921"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="141821921"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="141821921"/>
+        </lane>
+    </edge>
+    <edge id="141821922#0" from="141821922#0-AddedOnRampNode" to="cluster_1552436699_1552436703_9754812052_9754812053" name="পুরাতন বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="495.83,830.44 505.88,947.67 511.06,980.45 515.54,1008.81" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <param key="origFrom" value="9754812054"/>
+        <param key="origTo" value="9754812054 9754812052"/>
+    </edge>
+    <edge id="141821922#0-AddedOnRampEdge" from="6905322255" to="141821922#0-AddedOnRampNode" name="পুরাতন বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="5" speed="16.67" shape="488.72,729.03 491.07,793.70 494.23,830.58" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0" acceleration="1">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="1" acceleration="1">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="4">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <param key="origFrom" value="9754812054"/>
+        <param key="origTo" value="9754812054 9754812052"/>
+    </edge>
+    <edge id="141821922#5" from="cluster_1552436699_1552436703_9754812052_9754812053" to="7642759360" name="পুরাতন বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="520.10,1036.22 537.02,1133.19" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <param key="origFrom" value="1552436703"/>
+    </edge>
+    <edge id="141821922#6" from="7642759360" to="cluster_6553351654_6556709944_6557039652_6557039653" name="পুরাতন বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="537.02,1133.19 541.50,1158.88 555.46,1234.65 566.12,1292.05" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="141821922"/>
+        </lane>
+        <param key="origTo" value="6557039652"/>
+    </edge>
+    <edge id="141821931" from="123044404" to="cluster_1552436699_1552436703_9754812052_9754812053" name="বিমানবন্দর সড়ক" priority="11" type="highway.secondary" numLanes="1" speed="13.89" shape="555.24,1133.74 548.43,1126.93 545.33,1117.94 538.30,1081.14 532.79,1044.67 530.00,1034.47 527.75,1029.40 524.38,1025.22 517.34,1020.13" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="141821931"/>
+        </lane>
+        <param key="origTo" value="1552436699"/>
+    </edge>
+    <edge id="142047546#0" from="6905372553" to="11309104035" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="2" speed="27.78" shape="549.95,578.08 555.73,578.24 603.66,582.40" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142047546"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142047546"/>
+        </lane>
+    </edge>
+    <edge id="142047546#1" from="11309104035" to="5746653539" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="2" speed="27.78" shape="603.66,582.40 625.41,584.29 659.28,585.83 682.64,586.81 700.13,586.62" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142047546"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142047546"/>
+        </lane>
+        <param key="origTo" value="5746653539"/>
+    </edge>
+    <edge id="142047546#2" from="5746653539" to="1554731376" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="2" speed="27.78" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142047546"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142047546"/>
+        </lane>
+        <param key="origFrom" value="5746653539"/>
+    </edge>
+    <edge id="142047546#3" from="1554731376" to="1554731338" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="2" speed="27.78" shape="708.35,586.34 729.14,584.12 756.37,580.04 792.56,573.70 822.75,567.67 851.23,559.35" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142047546"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142047546"/>
+        </lane>
+    </edge>
+    <edge id="142049043#0" from="9696932220" to="2418163974" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" shape="549.80,4.87 540.45,49.30 528.38,107.22" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="142049043"/>
+        </lane>
+    </edge>
+    <edge id="142049043#1" from="2418163974" to="3290559993" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="142049043"/>
+        </lane>
+    </edge>
+    <edge id="142049043#2" from="3290559993" to="4925983063" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="142049043"/>
+        </lane>
+    </edge>
+    <edge id="142049043#3" from="4925983063" to="2418163975" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="142049043"/>
+        </lane>
+    </edge>
+    <edge id="142049043#4" from="2418163975" to="2999716282" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="142049043"/>
+        </lane>
+    </edge>
+    <edge id="142049043#5" from="2999716282" to="2999731335" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" shape="497.68,380.81 493.36,453.01 492.20,465.52" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="142049043"/>
+        </lane>
+    </edge>
+    <edge id="142049043#6" from="2999731335" to="6904866115" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="5" speed="27.78" shape="490.33,466.64 488.52,494.49 487.21,514.60 486.24,529.62" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="4">
+            <param key="origId" value="142049043"/>
+        </lane>
+    </edge>
+    <edge id="142049043#7" from="6904866115" to="cluster10027077018_154346215_1552436542_1554731343" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="27.78" shape="488.11,528.50 486.96,556.37" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="142049043"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="142049043"/>
+        </lane>
+    </edge>
+    <edge id="142051081" from="1554763156" to="414040265" priority="1" type="highway.steps" numLanes="1" speed="1.39" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="142051081"/>
+        </lane>
+    </edge>
+    <edge id="142051082" from="1554763146" to="414040265" priority="1" type="highway.steps" numLanes="1" speed="1.39" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="142051082"/>
+        </lane>
+    </edge>
+    <edge id="142051084" from="1554763159" to="414040264" priority="1" type="highway.steps" numLanes="1" speed="1.39" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="142051084"/>
+        </lane>
+    </edge>
+    <edge id="142051086" from="1554763148" to="414040264" priority="1" type="highway.steps" numLanes="1" speed="1.39" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="142051086"/>
+        </lane>
+    </edge>
+    <edge id="143870422#0" from="1554731335" to="4916623449" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="3" speed="27.78" shape="927.48,522.88 830.08,555.00 795.71,562.44 750.32,569.86 723.30,573.96 697.62,575.35" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="143870422"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="143870422"/>
+        </lane>
+        <param key="origTo" value="4916623449"/>
+    </edge>
+    <edge id="143870422#1" from="4916623449" to="4916623443" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="3" speed="27.78" shape="699.68,575.09 695.97,575.52 686.22,575.61 658.54,575.12 640.22,574.61 616.89,572.32" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="143870422"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="143870422"/>
+        </lane>
+        <param key="origFrom" value="4916623449"/>
+    </edge>
+    <edge id="143870422#2" from="4916623443" to="6905372554" name="Tejgaon Link Road" priority="12" type="highway.primary" numLanes="3" speed="27.78" shape="617.38,571.34 549.03,564.64" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="143870422"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="143870422"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="143870422"/>
+        </lane>
+    </edge>
+    <edge id="15491645#1" from="4926544730" to="J4" name="বিজয় সরণী" priority="12" type="highway.primary" numLanes="4" speed="16.67" shape="6.17,662.19 357.39,593.15 358.91,592.78" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="15491645"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="15491645"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="15491645"/>
+        </lane>
+    </edge>
+    <edge id="15491645#1.359" from="J4" to="cluster10027077018_154346215_1552436542_1554731343" name="বিজয় সরণী" priority="12" type="highway.primary" numLanes="4" speed="16.67" shape="358.91,592.78 364.07,591.50 387.73,586.92 411.14,583.83 431.68,582.68 473.99,582.20 485.77,582.62" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="15491645"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="15491645"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="15491645"/>
+        </lane>
+    </edge>
+    <edge id="24375730#0" from="123044404" to="cluster_1552436699_1552436703_9754812052_9754812053" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="555.24,1133.74 549.61,1094.31 542.60,1054.22 539.19,1036.21 536.58,1024.85 530.61,1006.73" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <param key="origTo" value="9754812053"/>
+    </edge>
+    <edge id="24375730#1" from="cluster_1552436699_1552436703_9754812052_9754812053" to="386846728" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="530.61,1006.73 527.23,985.21" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <param key="origFrom" value="9754812053"/>
+    </edge>
+    <edge id="24375730#2" from="386846728" to="1255160765" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="527.23,985.21 526.19,978.14 516.37,911.64 513.30,871.68 511.34,836.03" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <param key="origFrom" value="9754812055"/>
+        <param key="origTo" value="9754812055"/>
+    </edge>
+    <edge id="24375730#4" from="1255160765" to="6553745371" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="511.34,836.03 504.58,768.17 502.82,738.89" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="24375730"/>
+        </lane>
+    </edge>
+    <edge id="24375730#5" from="6553745371" to="123044395" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="24375730"/>
+        </lane>
+    </edge>
+    <edge id="24375730#6" from="123044395" to="11279579563" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="501.16,707.64 497.42,651.83 497.68,645.28" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="24375730"/>
+        </lane>
+    </edge>
+    <edge id="24375730#7" from="11279579563" to="6905334314" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="5" speed="16.67" shape="498.59,645.27 499.25,617.62 499.51,611.07" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="4">
+            <param key="origId" value="24375730"/>
+        </lane>
+    </edge>
+    <edge id="24375730#8" from="6905334314" to="cluster10027077018_154346215_1552436542_1554731343" name="বিমানবন্দর সড়ক" priority="13" type="highway.trunk" numLanes="4" speed="16.67" shape="498.51,610.95 500.09,582.72" spreadType="center" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="24375730"/>
+        </lane>
+        <lane index="3">
+            <param key="origId" value="24375730"/>
+        </lane>
+    </edge>
+    <edge id="343023581" from="3499470264" to="3499470265" name="Foot Over Bridge" priority="1" type="highway.pedestrian" numLanes="1" speed="2.78" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="343023581"/>
+        </lane>
+    </edge>
+    <edge id="343023584" from="3499470266" to="3499470265" priority="1" type="highway.steps" numLanes="1" speed="1.39" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="343023584"/>
+        </lane>
+    </edge>
+    <edge id="343023587" from="3499470268" to="3499470264" priority="1" type="highway.steps" numLanes="1" speed="1.39" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="343023587"/>
+        </lane>
+    </edge>
+    <edge id="35324240" from="414040264" to="414040265" priority="1" type="highway.footway" numLanes="1" speed="2.78" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="35324240"/>
+        </lane>
+    </edge>
+    <edge id="566501599" from="1554731338" to="10008605199" name="Tejgaon Link Flyover" priority="12" type="highway.primary" numLanes="2" speed="27.78" shape="851.23,559.35 899.66,541.84 929.38,533.36" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone">
+        <lane index="0">
+            <param key="origId" value="566501599"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="566501599"/>
+        </lane>
+    </edge>
+    <edge id="737473714" from="3499470265" to="4601004095" priority="1" type="highway.steps" numLanes="1" speed="1.39" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="737473714"/>
+        </lane>
+    </edge>
+    <edge id="737473715" from="3499470264" to="3499470269" priority="1" type="highway.steps" numLanes="1" speed="1.39" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="737473715"/>
+        </lane>
+    </edge>
+    <edge id="818379584" from="7642759360" to="7642759358" priority="1" type="highway.service" numLanes="1" speed="5.56" shape="537.02,1133.19 511.44,1136.97 515.55,1159.75" allow="pedestrian delivery bicycle">
+        <lane index="0">
+            <param key="origId" value="818379584"/>
+        </lane>
+    </edge>
+    <edge id="998752771#1" from="12196631047" to="9221371112" priority="1" type="highway.footway" numLanes="1" speed="2.78" shape="220.14,528.44 225.14,520.33 227.88,513.11 228.59,506.55 228.66,499.58 227.08,491.42 224.27,484.51 220.66,478.83 214.80,473.21 207.84,467.64 196.92,464.32 188.85,463.04 181.03,462.97 171.80,465.19 163.23,469.86 157.77,475.28 152.73,481.11 148.94,487.73 146.37,493.52 136.96,490.10 138.51,484.73 141.34,479.63 144.93,472.75 148.42,468.66 154.69,463.01 160.53,459.04 169.70,454.42 177.10,452.24 185.48,451.56 194.13,451.65 203.51,453.65 213.89,458.37 224.55,465.84 230.34,473.10 234.52,480.01 237.71,486.64 239.36,494.99 239.76,502.30 239.43,508.81 237.52,518.62 234.16,528.48 228.06,535.37" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="998752771"/>
+        </lane>
+    </edge>
+    <edge id="998752771#2" from="9221371112" to="12196631047" priority="1" type="highway.footway" numLanes="1" speed="2.78" shape="228.06,535.37 224.48,538.97 215.86,545.80 209.66,549.68 201.10,552.40 189.19,553.40 176.05,550.90 164.28,545.67 154.12,537.33 164.35,530.26 166.85,531.86 171.65,535.25 177.26,538.21 185.76,541.13 191.96,541.83 199.15,540.68 207.34,537.87 214.44,532.61 220.14,528.44" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="998752771"/>
+        </lane>
+    </edge>
+    <edge id="E3" from="J4" to="6905322255" priority="-1" numLanes="1" speed="13.89" shape="358.91,592.78 416.19,588.55 455.79,587.67 474.58,587.78 479.42,589.04 479.74,595.57 480.18,631.77 482.75,709.53 483.06,720.05 489.34,728.94"/>
+</edges>

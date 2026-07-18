@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <flow id="e2n.med_truck" type="med_truck" begin="0" end="3600" from="143870422#0" to="141821922#6" perHour="0.25" departLane="best" departSpeed="avg"/>
+    <flow id="e2n.small_truck" type="small_truck" begin="0" end="3600" from="143870422#0" to="141821922#6" perHour="5.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2n.medium_bus" type="medium_bus" begin="0" end="3600" from="143870422#0" to="141821922#6" perHour="0.25" departLane="best" departSpeed="avg"/>
+    <flow id="e2n.micro_bus" type="micro_bus" begin="0" end="3600" from="143870422#0" to="141821922#6" perHour="10.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2n.utility" type="utility" begin="0" end="3600" from="143870422#0" to="141821922#6" perHour="5.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2n.car" type="car" begin="0" end="3600" from="143870422#0" to="141821922#6" perHour="88.50" departLane="best" departSpeed="avg"/>
+    <flow id="e2n.cng" type="cng" begin="0" end="3600" from="143870422#0" to="141821922#6" perHour="23.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2n.motorcycle" type="motorcycle" begin="0" end="3600" from="143870422#0" to="141821922#6" perHour="115.75" departLane="best" departSpeed="avg"/>
+    <flow id="e2s.small_truck" type="small_truck" begin="0" end="3600" from="143870422#0" to="13848342#5" via="1126771721" perHour="2.75" departLane="best" departSpeed="avg"/>
+    <flow id="e2s.micro_bus" type="micro_bus" begin="0" end="3600" from="143870422#0" to="13848342#5" via="1126771721" perHour="0.25" departLane="best" departSpeed="avg"/>
+    <flow id="e2s.car" type="car" begin="0" end="3600" from="143870422#0" to="13848342#5" via="1126771721" perHour="15.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2s.cng" type="cng" begin="0" end="3600" from="143870422#0" to="13848342#5" via="1126771721" perHour="12.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2s.motorcycle" type="motorcycle" begin="0" end="3600" from="143870422#0" to="13848342#5" via="1126771721" perHour="20.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2w.med_truck" type="med_truck" begin="0" end="3600" from="143870422#0" to="1126771718#2" perHour="28.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2w.small_truck" type="small_truck" begin="0" end="3600" from="143870422#0" to="1126771718#2" perHour="37.00" departLane="best" departSpeed="avg"/>
+    <flow id="e2w.micro_bus" type="micro_bus" begin="0" end="3600" from="143870422#0" to="1126771718#2" perHour="57.25" departLane="best" departSpeed="avg"/>
+    <flow id="e2w.utility" type="utility" begin="0" end="3600" from="143870422#0" to="1126771718#2" perHour="55.50" departLane="best" departSpeed="avg"/>
+    <flow id="e2w.car" type="car" begin="0" end="3600" from="143870422#0" to="1126771718#2" perHour="180.25" departLane="best" departSpeed="avg"/>
+    <flow id="e2w.cng" type="cng" begin="0" end="3600" from="143870422#0" to="1126771718#2" perHour="158.50" departLane="best" departSpeed="avg"/>
+    <flow id="e2w.motorcycle" type="motorcycle" begin="0" end="3600" from="143870422#0" to="1126771718#2" perHour="213.75" departLane="best" departSpeed="avg"/>
+    <flow id="n2e.med_truck" type="med_truck" begin="0" end="3600" from="141821921#1" to="566501599" via="1126771723" perHour="0.50" departLane="best" departSpeed="avg"/>
+    <flow id="n2e.small_truck" type="small_truck" begin="0" end="3600" from="141821921#1" to="566501599" via="1126771723" perHour="22.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2e.medium_bus" type="medium_bus" begin="0" end="3600" from="141821921#1" to="566501599" via="1126771723" perHour="6.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2e.micro_bus" type="micro_bus" begin="0" end="3600" from="141821921#1" to="566501599" via="1126771723" perHour="84.50" departLane="best" departSpeed="avg"/>
+    <flow id="n2e.utility" type="utility" begin="0" end="3600" from="141821921#1" to="566501599" via="1126771723" perHour="84.50" departLane="best" departSpeed="avg"/>
+    <flow id="n2e.car" type="car" begin="0" end="3600" from="141821921#1" to="566501599" via="1126771723" perHour="196.50" departLane="best" departSpeed="avg"/>
+    <flow id="n2e.cng" type="cng" begin="0" end="3600" from="141821921#1" to="566501599" via="1126771723" perHour="152.25" departLane="best" departSpeed="avg"/>
+    <flow id="n2e.motorcycle" type="motorcycle" begin="0" end="3600" from="141821921#1" to="566501599" via="1126771723" perHour="280.50" departLane="best" departSpeed="avg"/>
+    <flow id="n2s.small_truck" type="small_truck" begin="0" end="3600" from="141821921#1" to="13848342#5" perHour="18.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2s.large_bus" type="large_bus" begin="0" end="3600" from="141821921#1" to="13848342#5" perHour="5.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2s.medium_bus" type="medium_bus" begin="0" end="3600" from="141821921#1" to="13848342#5" perHour="40.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2s.micro_bus" type="micro_bus" begin="0" end="3600" from="141821921#1" to="13848342#5" perHour="37.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2s.utility" type="utility" begin="0" end="3600" from="141821921#1" to="13848342#5" perHour="32.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2s.car" type="car" begin="0" end="3600" from="141821921#1" to="13848342#5" perHour="198.25" departLane="best" departSpeed="avg"/>
+    <flow id="n2s.cng" type="cng" begin="0" end="3600" from="141821921#1" to="13848342#5" perHour="86.75" departLane="best" departSpeed="avg"/>
+    <flow id="n2s.motorcycle" type="motorcycle" begin="0" end="3600" from="141821921#1" to="13848342#5" perHour="269.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2w.small_truck" type="small_truck" begin="0" end="3600" from="141821921#1" to="1126771718#2" perHour="17.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2w.large_bus" type="large_bus" begin="0" end="3600" from="141821921#1" to="1126771718#2" perHour="4.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2w.medium_bus" type="medium_bus" begin="0" end="3600" from="141821921#1" to="1126771718#2" perHour="20.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2w.micro_bus" type="micro_bus" begin="0" end="3600" from="141821921#1" to="1126771718#2" perHour="62.00" departLane="best" departSpeed="avg"/>
+    <flow id="n2w.utility" type="utility" begin="0" end="3600" from="141821921#1" to="1126771718#2" perHour="74.50" departLane="best" departSpeed="avg"/>
+    <flow id="n2w.car" type="car" begin="0" end="3600" from="141821921#1" to="1126771718#2" perHour="323.50" departLane="best" departSpeed="avg"/>
+    <flow id="n2w.cng" type="cng" begin="0" end="3600" from="141821921#1" to="1126771718#2" perHour="181.50" departLane="best" departSpeed="avg"/>
+    <flow id="n2w.motorcycle" type="motorcycle" begin="0" end="3600" from="141821921#1" to="1126771718#2" perHour="268.50" departLane="best" departSpeed="avg"/>
+    <flow id="s2e.small_truck" type="small_truck" begin="0" end="3600" from="142049043#6" to="566501599" perHour="8.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2e.micro_bus" type="micro_bus" begin="0" end="3600" from="142049043#6" to="566501599" perHour="9.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2e.utility" type="utility" begin="0" end="3600" from="142049043#6" to="566501599" perHour="4.50" departLane="best" departSpeed="avg"/>
+    <flow id="s2e.car" type="car" begin="0" end="3600" from="142049043#6" to="566501599" perHour="73.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2e.cng" type="cng" begin="0" end="3600" from="142049043#6" to="566501599" perHour="53.75" departLane="best" departSpeed="avg"/>
+    <flow id="s2e.motorcycle" type="motorcycle" begin="0" end="3600" from="142049043#6" to="566501599" perHour="42.75" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.med_truck" type="med_truck" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="4.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.small_truck" type="small_truck" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="9.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.large_bus" type="large_bus" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="20.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.medium_bus" type="medium_bus" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="26.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.micro_bus" type="micro_bus" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="25.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.utility" type="utility" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="22.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.car" type="car" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="202.25" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.cng" type="cng" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="129.75" departLane="best" departSpeed="avg"/>
+    <flow id="s2n.motorcycle" type="motorcycle" begin="0" end="3600" from="142049043#6" to="141821922#6" perHour="297.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2w.small_truck" type="small_truck" begin="0" end="3600" from="142049043#6" to="1126771718#2" via="1126771717" perHour="15.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2w.medium_bus" type="medium_bus" begin="0" end="3600" from="142049043#6" to="1126771718#2" via="1126771717" perHour="5.75" departLane="best" departSpeed="avg"/>
+    <flow id="s2w.micro_bus" type="micro_bus" begin="0" end="3600" from="142049043#6" to="1126771718#2" via="1126771717" perHour="17.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2w.utility" type="utility" begin="0" end="3600" from="142049043#6" to="1126771718#2" via="1126771717" perHour="13.00" departLane="best" departSpeed="avg"/>
+    <flow id="s2w.car" type="car" begin="0" end="3600" from="142049043#6" to="1126771718#2" via="1126771717" perHour="144.25" departLane="best" departSpeed="avg"/>
+    <flow id="s2w.cng" type="cng" begin="0" end="3600" from="142049043#6" to="1126771718#2" via="1126771717" perHour="165.25" departLane="best" departSpeed="avg"/>
+    <flow id="s2w.motorcycle" type="motorcycle" begin="0" end="3600" from="142049043#6" to="1126771718#2" via="1126771717" perHour="193.50" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.med_truck" type="med_truck" begin="0" end="3600" from="15491645#1" to="566501599" perHour="18.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.small_truck" type="small_truck" begin="0" end="3600" from="15491645#1" to="566501599" perHour="18.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.large_bus" type="large_bus" begin="0" end="3600" from="15491645#1" to="566501599" perHour="1.25" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.medium_bus" type="medium_bus" begin="0" end="3600" from="15491645#1" to="566501599" perHour="7.75" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.micro_bus" type="micro_bus" begin="0" end="3600" from="15491645#1" to="566501599" perHour="74.75" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.utility" type="utility" begin="0" end="3600" from="15491645#1" to="566501599" perHour="50.75" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.car" type="car" begin="0" end="3600" from="15491645#1" to="566501599" perHour="264.25" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.cng" type="cng" begin="0" end="3600" from="15491645#1" to="566501599" perHour="221.25" departLane="best" departSpeed="avg"/>
+    <flow id="w2e.motorcycle" type="motorcycle" begin="0" end="3600" from="15491645#1" to="566501599" perHour="364.25" departLane="best" departSpeed="avg"/>
+    <flow id="w2n.med_truck" type="med_truck" begin="0" end="3600" from="15491645#1" to="141821922#6" via="E3" perHour="8.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2n.small_truck" type="small_truck" begin="0" end="3600" from="15491645#1" to="141821922#6" via="E3" perHour="25.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2n.medium_bus" type="medium_bus" begin="0" end="3600" from="15491645#1" to="141821922#6" via="E3" perHour="14.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2n.micro_bus" type="micro_bus" begin="0" end="3600" from="15491645#1" to="141821922#6" via="E3" perHour="58.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2n.utility" type="utility" begin="0" end="3600" from="15491645#1" to="141821922#6" via="E3" perHour="45.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2n.car" type="car" begin="0" end="3600" from="15491645#1" to="141821922#6" via="E3" perHour="475.50" departLane="best" departSpeed="avg"/>
+    <flow id="w2n.cng" type="cng" begin="0" end="3600" from="15491645#1" to="141821922#6" via="E3" perHour="422.50" departLane="best" departSpeed="avg"/>
+    <flow id="w2n.motorcycle" type="motorcycle" begin="0" end="3600" from="15491645#1" to="141821922#6" via="E3" perHour="522.50" departLane="best" departSpeed="avg"/>
+    <flow id="w2s.med_truck" type="med_truck" begin="0" end="3600" from="15491645#1" to="13848342#5" perHour="9.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2s.small_truck" type="small_truck" begin="0" end="3600" from="15491645#1" to="13848342#5" perHour="8.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2s.medium_bus" type="medium_bus" begin="0" end="3600" from="15491645#1" to="13848342#5" perHour="2.75" departLane="best" departSpeed="avg"/>
+    <flow id="w2s.micro_bus" type="micro_bus" begin="0" end="3600" from="15491645#1" to="13848342#5" perHour="4.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2s.utility" type="utility" begin="0" end="3600" from="15491645#1" to="13848342#5" perHour="0.25" departLane="best" departSpeed="avg"/>
+    <flow id="w2s.car" type="car" begin="0" end="3600" from="15491645#1" to="13848342#5" perHour="51.75" departLane="best" departSpeed="avg"/>
+    <flow id="w2s.cng" type="cng" begin="0" end="3600" from="15491645#1" to="13848342#5" perHour="30.00" departLane="best" departSpeed="avg"/>
+    <flow id="w2s.motorcycle" type="motorcycle" begin="0" end="3600" from="15491645#1" to="13848342#5" perHour="25.00" departLane="best" departSpeed="avg"/>
+</routes>

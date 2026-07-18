@@ -1,0 +1,8 @@
+# regenerable simulation outputs
+tripinfo.xml
+statistics.xml
+ti_*.xml
+*.log
+__pycache__/
+spot_*
+runs/

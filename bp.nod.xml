@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-07-06T17:53:34.624203+00:00 by Eclipse SUMO netconvert 1.27.1
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="osm_updated_net.xml"/>
+    </input>
+
+    <output>
+        <plain-output-prefix value="bp"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="1"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</netconvertConfiguration>
+-->
+
+<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="-233397.45,-2630017.98" convBoundary="6.17,0.39,929.38,1296.40" origBoundary="90.384233,23.759276,90.393471,23.771133" projParameter="+proj=utm +zone=46 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <node id="10008605199" x="929.38" y="533.36" type="dead_end"/>
+    <node id="10027065973" x="512.48" y="439.84" type="dead_end"/>
+    <node id="10027065975" x="488.03" y="438.80" type="dead_end"/>
+    <node id="10303219058" x="487.80" y="449.46" type="dead_end"/>
+    <node id="10303219059" x="511.93" y="452.69" type="dead_end"/>
+    <node id="11279579563" x="497.59" y="645.19" type="priority"/>
+    <node id="11309104035" x="603.66" y="582.40" type="priority"/>
+    <node id="12196631047" x="220.14" y="528.44" type="dead_end"/>
+    <node id="12196631082" x="238.76" y="601.36" type="priority"/>
+    <node id="123044395" x="501.16" y="707.64" type="priority"/>
+    <node id="123044404" x="555.24" y="1133.74" type="priority"/>
+    <node id="123044414" x="557.60" y="1157.38" type="priority"/>
+    <node id="1255160765" x="511.34" y="836.03" type="priority"/>
+    <node id="141821922#0-AddedOnRampNode" x="495.83" y="830.44" type="priority"/>
+    <node id="1554731335" x="927.48" y="522.88" type="dead_end"/>
+    <node id="1554731338" x="851.23" y="559.35" type="priority"/>
+    <node id="1554731345" x="500.63" y="533.31" type="priority"/>
+    <node id="1554731376" x="708.35" y="586.34" type="priority"/>
+    <node id="1554763146" x="578.82" y="1234.66" type="dead_end"/>
+    <node id="1554763148" x="543.73" y="1241.48" type="dead_end"/>
+    <node id="1554763156" x="583.49" y="1263.41" type="dead_end"/>
+    <node id="1554763159" x="548.83" y="1269.09" type="dead_end"/>
+    <node id="2412825272" x="507.90" y="411.68" type="priority"/>
+    <node id="2412825463" x="511.20" y="365.80" type="priority"/>
+    <node id="2412825661" x="516.92" y="289.12" type="priority"/>
+    <node id="2412827471" x="488.32" y="423.73" type="dead_end"/>
+    <node id="2412827472" x="513.57" y="423.88" type="dead_end"/>
+    <node id="2418163974" x="528.38" y="107.22" type="priority"/>
+    <node id="2418163975" x="501.85" y="314.41" type="priority"/>
+    <node id="2999716282" x="497.68" y="380.81" type="priority"/>
+    <node id="2999731335" x="492.20" y="465.52" type="priority"/>
+    <node id="3290559993" x="513.23" y="194.78" type="priority"/>
+    <node id="3499470264" x="534.99" y="22.57" type="dead_end"/>
+    <node id="3499470265" x="561.46" y="28.44" type="dead_end"/>
+    <node id="3499470266" x="560.50" y="40.04" type="dead_end"/>
+    <node id="3499470268" x="531.94" y="32.33" type="dead_end"/>
+    <node id="3499470269" x="537.02" y="10.89" type="dead_end"/>
+    <node id="386846728" x="527.23" y="985.21" type="priority"/>
+    <node id="414040264" x="545.80" y="1254.01" type="dead_end"/>
+    <node id="414040265" x="580.97" y="1247.35" type="dead_end"/>
+    <node id="4601004095" x="565.14" y="16.30" type="dead_end"/>
+    <node id="4916623443" x="616.89" y="572.32" type="priority"/>
+    <node id="4916623449" x="697.62" y="575.35" type="priority"/>
+    <node id="4925983063" x="505.35" y="272.33" type="priority"/>
+    <node id="4926163257" x="500.75" y="523.37" type="priority"/>
+    <node id="4926544729" x="424.57" y="565.41" type="priority"/>
+    <node id="4926544730" x="6.17" y="662.19" type="dead_end"/>
+    <node id="5612436789" x="13.17" y="644.09" type="dead_end"/>
+    <node id="5746653539" x="700.13" y="586.62" type="priority"/>
+    <node id="6553745371" x="502.82" y="738.89" type="priority"/>
+    <node id="6904866110" x="136.71" y="623.68" type="priority"/>
+    <node id="6904866115" x="488.11" y="528.50" type="priority"/>
+    <node id="6905322255" x="489.34" y="728.94" type="priority"/>
+    <node id="6905334314" x="498.51" y="610.95" type="priority"/>
+    <node id="6905372553" x="549.95" y="578.08" type="priority"/>
+    <node id="6905372554" x="548.53" y="565.62" type="priority"/>
+    <node id="6911347916" x="540.72" y="101.39" type="dead_end"/>
+    <node id="7642759358" x="515.55" y="1159.75" type="priority"/>
+    <node id="7642759360" x="537.02" y="1133.19" type="priority"/>
+    <node id="9221371112" x="228.06" y="535.37" type="dead_end"/>
+    <node id="9696932220" x="549.80" y="4.87" type="priority"/>
+    <node id="9696932221" x="546.97" y="0.39" type="dead_end"/>
+    <node id="J4" x="358.91" y="592.78" type="priority"/>
+    <node id="cluster10027077018_154346215_1552436542_1554731343" x="493.53" y="569.99" type="traffic_light" tl="J0"/>
+    <node id="cluster_1552436699_1552436703_9754812052_9754812053" x="520.90" y="1017.97" type="priority">
+        <param key="origEdgeIds" value="-1061772992 1061772992 141821922#3 141821922#4"/>
+        <param key="origId" value="1552436699 1552436703 9754812052 9754812053"/>
+    </node>
+    <node id="cluster_6553351654_6556709944_6557039652_6557039653" x="575.71" y="1296.40" type="dead_end">
+        <param key="origEdgeIds" value="-1086178168 -33789108#0 1086178168 141821921#0 141821922#7 33789108#0"/>
+        <param key="origId" value="6553351654 6556709944 6557039652 6557039653"/>
+    </node>
+</nodes>
