@@ -7,6 +7,8 @@ from xml.etree import ElementTree as ET
 import csv
 from datetime import datetime
 
+
+
 # SUMO Configuration
 sumo_config = {
     "sumo_bin": "C:/Program Files (x86)/Eclipse/Sumo/bin/sumo.exe",
